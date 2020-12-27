@@ -1,0 +1,299 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    background-color:rgb(248, 247, 247);
+    width: 100%;
+    height: 80px;
+    display:flex;
+    justify-content: space-around;
+   position:fixed;
+}
+.olx{
+   margin-top: 16px;
+}
+.citybar input{
+    height: 50px;
+    width: 250px;
+    padding: 20px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.citybar input:hover{
+    border: 2px solid skyblue;
+}
+
+.searchbar input{
+    height: 45px;
+    width: 450px;
+    
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: ;
+}
+.searchbar input:hover{
+    border: 2px solid skyblue;
+}
+.searchbar img{
+    background-color: rgb(29, 29, 29);
+    height: 47px;
+    width: 50px;
+    border: 2px solid  rgb(29, 29, 29);
+    position:absolute;
+    margin-top:15px;
+}
+.login {
+    margin-top:25px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.login a{
+    color:  rgb(29, 29, 29);
+}
+.login:hover{
+    color: black;
+}
+.sell button{
+    width: 100px;
+    height: 48px;
+    margin-top:15px;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 1px 10px 0 rgba(0,0,0,.12), 0 4px 5px 0 rgba(0,0,0,.14);
+    border: 6px solid   blue;
+    border-radius: 25px;  
+    color: rgb(29, 29, 29) ;
+    font-weight: bold;
+    font-size: 16px;
+}
+#subnav{
+    width: 100%;
+   display: flex;
+   height: 30px;
+    padding: 10px;
+    background-color: #fff;
+}
+.linkbar span{
+    font-weight: bold;
+    padding: 15px;
+    
+}
+.linkbars ul>li{
+    display: inline-block;
+    overflow:hidden; 
+    font-size: 15px;
+    font-weight: ;
+    text-align: center;
+
+}
+#googleadd{
+    margin-left: 220px;
+    padding: 30px;
+    height: auto;
+}
+#lastsearch{
+    margin: 30px;
+   background-color: rgb(236, 233, 233);
+    height: 400px;
+    
+   
+}
+#lastsearch h3{
+    margin: 10px;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: normal;
+}
+.oldcard h2{
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+#lastsearch .oldcard{
+    display: inline-block;
+    max-width: 280px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+    border: 2px solid lightgrey;
+    border-left: 5px solid orange;
+}
+#lastsearch .oldcard:hover{
+    border: 3px solid lightgray;
+}
+#lastsearch .oldcard img{
+  margin-left:25px;
+  margin-top: 8px;
+ }
+ #lastsearch .oldcard h4{
+ margin-left: 5px;
+ font-weight: normal;
+ font-size: 15px;
+ color: grey;
+}
+
+#products{
+    margin: 5px;
+   background-color: white;
+    height: auto;
+    
+   
+}
+#products h3{
+    margin: 10px;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: normal;
+}
+.procard h2{
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+#products .procard{
+    display: inline-block;
+    max-width: 290px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-left: 5px solid orange;
+    border-radius: 5px;
+
+}
+#products .procard:hover{
+    border: 3px solid lightgray;
+}
+#products .procard img{
+  margin-left:15px;
+  margin-top: 8px;
+ }
+
+ #products .procard p{
+ margin-left: 5px;
+ font-weight: normal;
+ font-size: 15px;
+ color: grey;
+}
+#products .prodetails{
+    display: inline-block;
+    max-width: 300px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: dodgerblue;
+    padding: 5px;
+    border: 2px solid dodgerblue;
+    height: 275px;
+    width: 350px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+#products .prodetails button{
+    background-color: dodgerblue;
+    border: 2px solid white;
+    color: white;
+    width: 240px;
+    height: 40px;
+    margin-top: 90px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#products .prodetails button:hover{
+    border: 5px solid white;
+}
+#products .prodetails p{
+font-size: 13px;
+}
+#button button{
+    margin-left: 550px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: black;
+    width: 110px;
+    height: 50px;
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+#button button:hover{
+    border: 6px solid black;
+    border-radius: 5px;
+}
+#alibaba{
+    display: flex;
+    justify-content: center; 
+    margin-top: 25px;
+    height: 350px;
+}
+#alibaba img{
+   border: 1px solid lightgray;
+   border-radius: 2px;
+   margin-left: 3px;
+}
+#alibaba img:hover{
+    border: 3px solid lightgray;
+}
+#subfooter{
+    background-color: rgb(248, 247, 247);
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+   
+}
+#subfooter img{
+    margin-left: 60px; 
+}
+#subfooter .phonedetail{
+   width: 600px;
+   padding: 10px;
+}
+#subfooter .phonedetail h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+#subfooter .appdetail {
+ margin-left: 30px;
+  border-left: 2px solid rgb(192, 190, 190);
+ padding: 40px;
+   
+}
+#footer {
+    display: flex;
+    background-color:lavender;
+    height: 180px;
+    border-top: 2px solid rgb(192, 190, 190);
+}
+#footer .lastfooter{
+     padding-left: 80px;
+} 
+#footer .lastfooter h5{
+    font-weight: bold;
+}
+#footer .lastfooter ul>li{
+    list-style: none;
+    font-weight: normal;
+    font-size: 13px;
+   color: gray;
+
+}
+#footer .lastfooter ul>li:hover{
+    color: black;
+}
+#lastfooter{
+    background-color:#02393f;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+
